@@ -1,0 +1,20 @@
+package src2;
+
+public class cast2 {
+
+	public static void main(String[] args) {
+		int a=100, b=23, c;
+		float d, e,f ;
+		c = a /b ;
+		System.out.println("c="+c);
+		// 강제 형 변환 () 정수연산시 실수로 만들어줌 뒤에 f붙여준다. 
+		//.
+		//.
+		//. 상수 대문자
+		System.out.println("byte : "+Byte.MIN_VALUE+"~"+Byte.MAX_VALUE);
+		
+		
+		
+	}
+
+}

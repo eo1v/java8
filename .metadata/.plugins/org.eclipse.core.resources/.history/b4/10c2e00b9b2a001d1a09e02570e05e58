@@ -1,0 +1,13 @@
+package src3;
+
+public class print2 {
+
+	public static void main(String[] args) {
+		int a=100;
+		float b=3.14f;
+		String c="kim";
+		System.out.printf(); //데이터 형식에 맞춤 
+
+	}
+
+}

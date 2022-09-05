@@ -1,0 +1,20 @@
+package sec1;
+//프로그램 (Operation)의 모든 명력은 Op-code와 Operrand로 이루어지며,
+//주소 (기억장소의 개수)에 따라 0주소 명령어 형식 ~3주소 명령어 형식
+
+public class Oper1 {
+
+	public static void main(String[] args) {
+		int a=20, b=30, c;
+		System.out.println(a);
+		prt();	
+		c = a + b ;
+		// 운용방식1 : +ab -> pre(fix) order (전위)
+		// 운용방식2 : ab+ -> post(fix) order (후위)
+		// 운용방식3 : a+b -> in(fix) order (중위)
+	}
+
+	public static void prt (){
+		System.out.println("data");
+	}
+}
