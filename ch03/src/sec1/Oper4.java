@@ -1,0 +1,29 @@
+package sec1;
+
+public class Oper4 {
+
+	public static void main(String[] args) {
+		int a=200, b=100, c=20, d=10;
+		//비교연산자 ( ture 또는 false로 결과가 산출됨)
+		//== 같다
+		//!= 같지 않다
+		//> 크다
+		//크거나 같다
+		System.out.println("a==b => "+(a==b)); 	//false
+		System.out.println("a!=b => "+(a!=b)); 	//true
+		System.out.println("a>b => "+(a>b)); 	//true
+		System.out.println("a>=b => "+(a>=b));	//true
+		System.out.println("a<b => "+(a<b)); 	//false
+		System.out.println("a<=b => "+(a<=b)); 	//false
+		
+		//단항 연산자 
+		System.out.println("a>b && c>d => "+(a>b && c<d)); // false
+		System.out.println("a>b || c>d => "+(a>b || c<d)); //true
+		System.out.println("!(a>b) => "+(a>b)); // true
+		
+		//삼항연산자  
+		// 조건 ? 참 :거짓
+		System.out.println(a>=b ? "크거나 같다" : "작다"); 
+	}
+
+}
