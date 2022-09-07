@@ -26,8 +26,8 @@ public class Oper3 {
 		//대입 연산자 
 		int p=20, r=30;
 		//p=p+1;  //p++, ++p
-		//p+=2; // p=p+2
-		//r=-2;
+		p+=2; // p=p+2 ->22
+		r=-2; //r=r-2 ->28
 		//System.out.println(p);
 		//System.out.println(r);
 		p*=2; //p=p*2 
