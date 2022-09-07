@@ -16,6 +16,8 @@ public class Oper5 {
 		System.out.println(a / 0); //Not a Number =>NaN  
 		System.out.println('k' / 4); // "문자열"은 안되고 '문자'는 가능   
 		System.out.println(a % 0);
+
+
 			}
 			}				 
 
