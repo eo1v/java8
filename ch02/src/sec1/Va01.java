@@ -8,13 +8,13 @@ public class Va01 {
 	public static void main(String[] args) {
 		//변수 선언 : 기억장소를 선언하는 것으로 변수명과 자료형이 같이 정의되어야 한다.
 		 
-		int a=10, b=20, c=30;      // 정수형 변수 
-		char d='a', e;             // 문자 변수 char 하나만 저장
-		String f="han", g, k;      // 문자열 변수
-		float h=3.14f, i = 0.25f;  // 실수형 변수 
-		float float1;
-		int temp1, kor;
-		c = a + c ;
+		int a=10, b=20, c;  //정수형 변수
+		char d='a', e;  //문자 변수
+		String f="kim", g, k; //문자열 변수
+		float h=3.14f, i=0.25f;  //실수형 변수 
+		int temp1, kor, eng;
+		//변수명 규칙
+		
 		//기본형 변수에 값을 지정하지 않으면 오류남 *자주색 글자 초기화 과정 필수 *초기화 = 변수에 값 지정  
 		//변수명 규칙
 		/* 필수조건
